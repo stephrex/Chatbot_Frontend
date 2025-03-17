@@ -1,0 +1,19 @@
+  /* Header Styling */
+  .header {
+    background: linear-gradient(to bottom right, #0d1117, #0d1117, #10161f);
+    /* width: 100%; */
+    /* background-color: #230054; */
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 5%;
+    position: static;
+  }
+  
+  .app-tagline {
+    font-size: 15px;
+    opacity: 0.9;
+    margin-top: 5px;
+  }
