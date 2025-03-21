@@ -164,3 +164,16 @@
   0%, 100% { opacity: 0; }
   50% { opacity: 1; }
 }
+
+@media (max-width: 768px) {
+    /* Chat Wrapper */
+  .chat-wrapper {
+    height: 78vh;
+  }
+
+  /* Chat Container */
+  .chat-container {
+    height: 95%;
+    padding-bottom: 3px;
+  }
+}
