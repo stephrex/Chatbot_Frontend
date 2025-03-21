@@ -2,7 +2,7 @@ export async function POST(req) {
     try {
       const message= await req.json();
       
-      const response = await fetch("https://chatbot-api-qexv.onrender.com/faq", {
+      const response = await fetch("https://chatbot-api-production-63f7.up.railway.app/faq", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(message),
