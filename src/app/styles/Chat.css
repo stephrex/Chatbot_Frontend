@@ -177,12 +177,16 @@
 @media (max-width: 768px) {
     /* Chat Wrapper */
   .chat-wrapper {
-    height: 78vh;
+    height: 80vh;
+    /* padding-bottom: 0px; */
   }
 
   /* Chat Container */
   .chat-container {
     height: 95%;
     padding-bottom: 3px;
+  }
+  .chat-placeholder {
+    font-size: 17px;
   }
 }
