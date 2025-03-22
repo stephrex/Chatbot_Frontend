@@ -1,19 +1,22 @@
-  /* Header Styling */
-  .header {
-    background: linear-gradient(to bottom right, #0d1117, #0d1117, #10161f);
-    /* width: 100%; */
-    /* background-color: #230054; */
-    color: white;
-    padding: 25px;
-    font-size: 30px;
-    font-weight: bold;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    height: 5%;
-    position: static;
-  }
-  
-  .app-tagline {
-    font-size: 15px;
-    opacity: 0.9;
-    margin-top: 5px;
-  }
+/* Header Styling */
+.header {
+  background: linear-gradient(to bottom right, #0d1117, #161b22);
+  color: white;
+  padding: 20px 40px;
+  font-size: 28px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  height: auto;
+}
+
+/* Tagline Styling */
+.app-tagline {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  max-width: 80%;
+}

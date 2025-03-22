@@ -4,8 +4,8 @@ import "../styles/header.css";
 const Header = () => {
   return (
     <header className="header">
-      ChatEase
-      <p className="app-tagline">AI-Powered Customer Support Assistant</p>
+      AI Support Assistant
+      <p className="app-tagline">Helping Businesses Automate Customer Service</p>
     </header>
   );
 };

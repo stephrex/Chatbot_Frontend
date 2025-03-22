@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { IoSend } from "react-icons/io5";
 import "../styles/Chat.css";
 import ReactMarkdown from "react-markdown";
+import { FaCommentDots, FaChartBar, FaSearch, FaCog, FaRocket } from "react-icons/fa";
 
 export default function Chat() {
     const [messages, setMessages] = useState([]);
@@ -72,9 +73,12 @@ export default function Chat() {
           <div className="chatbox">
             {messages.length === 0 && (
               <div className="chat-placeholder">
-                <p className="placeholder-message">✨ Welcome to ChatEase!</p>
-                <p className="placeholder-message">🤖 Your AI-powered assistant is here!</p>
-                <p className="placeholder-message">🚀 Ask me anything about your business!</p>
+                <p className="placeholder-message"> <FaCommentDots className="placeholder-icon" /> Welcome to AI-Customer Support Assistant!</p>
+                <p className="placeholder-message"> <FaChartBar className="placeholder-icon" /> 24/7 support boosts sales—customers want instant service.</p>
+                <p className="placeholder-message"> <FaSearch className="placeholder-icon" /> Automate FAQs & save time for what truly matters.</p>
+                <p className='placeholder-message'> <FaCog className="placeholder-icon" /> AI-powered support increases efficiency & customer satisfaction.</p>
+                <p className="placeholder-message"> <FaRocket className="placeholder-icon" /> Reduce workload, improve response times, and scale seamlessly.</p>
+                <p className='placeholder-message'> Stay ahead—transform customer support with AI today!</p>
               </div>
             )}
             {messages.map((msg, index) => (
@@ -89,7 +93,7 @@ export default function Chat() {
             ))}
             {isTyping && (
               <div className="typing-indicator">
-                <span>ChatEase is typing</span>
+                <span>AI-Support is typing</span>
                 <span className="dot">.</span>
                 <span className="dot">.</span>
                 <span className="dot">.</span>

@@ -2,7 +2,7 @@ export async function POST(req) {
     try {
       const message= await req.json();
       
-      const response = await fetch("https://chatbot-api-production-63f7.up.railway.app/faq", {
+      const response = await fetch("http://127.0.0.1:5000/faq", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(message),
